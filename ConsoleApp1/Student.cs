@@ -38,7 +38,8 @@ namespace ConsoleApp1
         public void evaluateGrade()
         {
             float average = (midtermGrade + finalGrade) / 2;
-            if(average >= 90) Console.WriteLine("Grade: " + average + " Honor");
+            Console.WriteLine();
+            if(average >= 90) Console.WriteLine("Grade: " + average + "With Honor");
 
             else if (average >= 75 ) Console.WriteLine("Grade: " + average + " Passed");
 
